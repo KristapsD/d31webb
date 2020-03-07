@@ -1,0 +1,62 @@
+.mainbody{
+    background-color: antiquewhite;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.left{
+    background-color: aqua;
+    width: 20%;
+    flex-direction: column;
+
+}
+
+.middle{
+    background-color: blue;
+    width: 60%;
+    flex-direction: column;
+
+}
+
+.right{
+    background-color: blueviolet;
+    width: 20%;
+    flex-direction: column;
+}
+
+header{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+footer{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+nav{
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto;
+    justify-content: center;
+}
+
+.button{
+    background-color: aliceblue;
+    transition: 0.4s;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding: 15px 10px 6px;
+}
+
+.button:hover{
+    background-color:pink;
+    text-align: center;
+}
+
